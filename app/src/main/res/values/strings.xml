@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Run Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="begin_run">Begin Run</string>
+    <string name="finish_run">Finish Run</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/li_tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Time: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_start_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/li_tv_start_time"
+            android:layout_toRightOf="@id/li_tv_start_time"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_tv_start_time"
+            android:text="End Time: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_end_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/li_tv_end_time"
+            android:layout_toRightOf="@id/li_tv_end_time"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_running_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_tv_end_time"
+            android:text="Running Time: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_running_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/li_tv_running_time"
+            android:layout_toRightOf="@id/li_tv_running_time"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_tv_running_time"
+            android:text="Run Feedback: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/li_tv_feedback_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/li_tv_feedback"
+            android:layout_toRightOf="@id/li_tv_feedback"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
